@@ -1,0 +1,319 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 20px; */
+    font-family: 'Raleway', sans-serif;
+}
+                                                /* header is start  */
+.navbar-brand img{
+    width: 10rem;
+}
+.navbar-nav .nav-item .nav-link{
+    margin-left: rem;
+    width: 10.5rem;
+}
+.dropdown-toggle{
+    color: black;
+    text-decoration: none;
+}
+.picture img{
+    width: 2rem;
+    margin-left:rem;
+}
+.inside-img{
+    display: flex;
+    align-items: center;
+    width: 7rem;
+    justify-content: space-between;
+    /* padding-right: 1rem; */
+}
+@media (max-width:992px) {
+    .navbar-nav .nav-item .nav-link{
+        margin-left: rem;
+        width: 15rem;
+    }
+}
+.navbar-toggler{
+    transition: all 0.3s;
+    padding: 5px 10px 5px 10px;
+}
+.navbar-toggler:focus{
+    border: 0.1rem solid rgb(27, 0, 0);
+    box-shadow: none;
+}
+.navbar-toggler:hover{
+    box-shadow: #dddddd 0.3rem 0.2rem 0.3rem;
+}
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar{
+    padding: 0;
+}
+.inside-img a{
+    color: black;
+}
+.dropdown-menu li a img{
+    font-size: 2rem;
+}
+.pick{
+    display: flex;
+    cursor: pointer;
+    justify-content: flex-start;
+    align-items: center;
+}
+.pick:hover{
+    background-color: #f1f1f1;
+}
+.pick img{
+    width: 1.8rem;
+    margin-right: 0.5rem;
+}
+.dropdown-menu{
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 12rem;
+    padding: 0.5rem;
+    margin: 0px;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+}
+.maincolor{
+    background-color: rgb(241 241 241);
+    /* border: 0.1rem solid black; */
+    padding: 1rem 1rem 1rem 1rem;
+}
+.navbar-nav { 
+    margin-right: -1rem;
+}
+                                                    /* header is end  */
+
+                                                    /* InstaDP is start  */
+
+.insta_set{
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.first{
+    min-height: 101px;
+    background: linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+.first i{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 0.8rem;
+}
+.first a{
+    color: white;
+    text-decoration: none;
+}
+.first a:hover{
+    text-decoration: underline;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -9px;
+    margin-top: 0.8rem;
+}
+
+                                    /* InstaDP is end  */
+
+                    /* InstaDP - Downloader Tools for Instagram is start */
+                
+.downloader{
+    margin-top: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgba(0,0,0,.03);
+    border: 1px solid rgba(0,0,0,.125);
+}
+.tool{
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 8px 15px 0px 15px;
+}
+.setting{
+    font-weight: 600;
+}
+.Go-left{
+    border-left: 0.3rem solid  #f50;
+    padding: 0 0px 0px 15px;
+    margin-left: 1.5rem;
+}
+.Go-left-other{
+    border-left: 0.3rem solid #f50;
+    padding: 0 0px 0px 15px;
+    margin-left: 1.5rem;
+    line-height: 2;
+}
+.visit-img img{
+    padding: 0 0 15px 0;
+    /* width: 80%; */
+}
+.visit-img-one{
+    padding: 0 0 15px 0;
+    /* width: 20%; */
+}
+.last-meth ul li{
+    list-style: none;
+}
+
+/* footer is start  */
+.footer{
+    background-color: rgb(241 241 241);
+}
+/* .container{
+    padding: 1.5rem;
+} */
+.privesy a{
+    text-decoration: none;
+}
+.privesy a:hover{
+    text-decoration: underline;
+}
+.boundary{
+    border-right: 0.1rem solid black;
+    padding-right: 0.4rem;
+}
+
+
+                /*,,,,,,,,,,,,,,,, Privesy portion is start Nextpage ,,,,,,,,,,,,,,,,*/ 
+.maincolor{
+    border-top: 0.1rem solid rgba(0,0,0,.125);
+    border-left: 0.1rem solid rgba(0,0,0,.125);
+    border-right: 0.1rem solid rgba(0,0,0,.125);
+    border-bottom: 0.1rem solid rgba(0,0,0,.125);
+}
+.container{
+   /* border-top: 0.1rem solid rgba(0,0,0,.125); */
+    border-left: 0.1rem solid rgba(0,0,0,.125);
+    border-right: 0.1rem solid rgba(0,0,0,.125);
+    /* border-bottom: 0.1rem solid rgba(0,0,0,.125); */
+}
+.small-box{
+    margin-top: 1rem;
+    padding: 1.2rem;
+    display: flex;
+    background-color: rgba(0,0,0,.125);
+    align-items: baseline;
+}
+.small-box h6{
+    margin-left: 0.5rem;
+}
+.small-box a{
+    text-decoration: none;
+}
+.small-box a:hover{
+    text-decoration: underline;
+}
+.big-sae{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+                /* <!-- Instagram Profile Picture Downloader is start Nextpage --> */
+
+.user_box{
+    background: linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    padding: 2rem;
+}
+.groud_box_pic_downloader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: baseline;
+}
+#press_on{
+    background-color: green;
+    border: none;
+    padding: 0.5rem;
+    color: white;
+}
+.groud_box_pic_downloader h6{
+    background-color: #C060A1;
+    padding: 0.5rem;
+    color: white;
+}
+.groud_box_pic_downloader input{
+    height: 2.2rem;
+    outline: none;
+    border: none;
+    width: 55%;
+    padding-left: 0.5rem;
+}
+.oneother{
+    /* background-color: #dc2743; */
+    width: 100%;
+}
+             /* conatct is start   */
+
+#message_send{
+    background-color: #dc2743;
+    border: none;
+    color: white;
+    padding: 0.4rem;
+}
+.form-floating input:focus{
+    box-shadow: none;
+    border: 0.1rem solid #e6683c;
+}
+.form-floating textarea:focus{
+    box-shadow: none;
+    border: 0.1rem solid #e6683c;
+}
+
+                  /* conatct is end   */
+
+
+/* medai queries  */
+@media (max-width:385px) {
+    .user_box {
+        background: linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,
+        #cc2366 75%,#bc1888 100%);
+        padding: 1rem;
+    }    
+}
+
+@media (max-width:352px) {
+    .user_box {
+        background: linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,
+        #cc2366 75%,#bc1888 100%);
+        padding: 0.4rem;
+    }    
+}
+
+@media (max-width:352px) {
+    .user_box {
+        background: linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,
+        #cc2366 75%,#bc1888 100%);
+        padding: 0rem;
+    }    
+}
+
+#loader{
+    background:#ffffffe6 url(../images/35771931234507.564a1d2403b3a.gif) no-repeat center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: 11%;
+    z-index: 100;
+}
+/* medai queries  */
+
